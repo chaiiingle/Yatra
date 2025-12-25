@@ -14,19 +14,19 @@ export const DESTINATIONS_DATA = {
     themeColor: 'junnar',
     tagline: 'Land of Shivneri & Ancient Caves',
     description: 'A historic city known as the birthplace of Chhatrapati Shivaji Maharaj, surrounded by the Sahyadri mountains, ancient rock-cut caves, and lush greenery.',
-    heroImage: 'https://picsum.photos/seed/junnar_hero/1600/900',
+    heroImage: 'https://sl.bing.net/iYdVbVgFIDQ',
   },
   [DestinationName.MAHABALESHWAR]: {
     themeColor: 'maha',
     tagline: 'Strawberries, Mist & Valleys',
     description: 'A mesmerizing hill station featuring deep evergreen forests, strawberry farms, and ancient temples, offering panoramic views of the Deccan Plateau.',
-    heroImage: 'https://picsum.photos/seed/maha_hero/1600/900',
+    heroImage: 'https://live.staticflickr.com/815/39959686265_cf11678f66_b.jpg',
   },
   [DestinationName.OOTY]: {
     themeColor: 'ooty',
     tagline: 'Queen of Hill Stations',
     description: 'Nestled in the Nilgiri hills, Ooty offers a nostalgic colonial charm with its toy train, vast tea estates, and cool, misty weather.',
-    heroImage: 'https://picsum.photos/seed/ooty_hero/1600/900',
+    heroImage: 'https://seoimgak.mmtcdn.com/blog/sites/default/files/images/ooty_2.jpg',
   }
 };
 
@@ -39,7 +39,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.FORT, SpotCategory.HISTORIC],
     durationHours: 3.0,
     description: 'The birthplace of Chhatrapati Shivaji Maharaj. A massive fort with 7 gates and strong fortifications.',
-    imageUrl: getImg(101),
+    imageUrl: https://i.pinimg.com/originals/34/6b/c0/346bc081a544ff5ef988ac7f1d030d01.jpg,
     mapQuery: 'Shivneri Fort Junnar',
     intensity: 'Heavy'
   },
@@ -50,8 +50,8 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.CAVE, SpotCategory.RELIGIOUS, SpotCategory.HISTORIC],
     durationHours: 2.5,
     description: 'A series of 30 rock-cut Buddhist caves, famously housing the Girijatmaj Ganpati temple.',
-    imageUrl: getImg(102),
-    mapQuery: 'Lenyadri Caves Junnar',
+    imageUrl: https://tse4.mm.bing.net/th/id/OIP._LePXAOb7CbLCXCrthAUigHaEo?rs=1&pid=ImgDetMain&o=7&rm=3,
+    mapQuery: 'Lenyadri caves junnar',
     intensity: 'Moderate'
   },
   {
@@ -61,7 +61,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.LAKE, SpotCategory.NATURE],
     durationHours: 1.5,
     description: 'A serene reservoir surrounded by nature, ideal for a quiet evening.',
-    imageUrl: getImg(103),
+    imageUrl: https://1.bp.blogspot.com/-652y-vuMnP0/XuY0l5i0DrI/AAAAAAAAClc/3HMyHgmxAFUl4zc4OYcuCJuROPBRmle7ACLcBGAsYHQ/s1600/2018-07-01.jpg,
     mapQuery: 'Manikdoh Dam Junnar',
     intensity: 'Light'
   },
@@ -72,7 +72,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.TREK, SpotCategory.HISTORIC, SpotCategory.SCENIC_POINT],
     durationHours: 3.0,
     description: 'Ancient trade route pass featuring inscriptions from the Satavahana era and stunning valley views.',
-    imageUrl: getImg(104),
+    imageUrl: https://1.bp.blogspot.com/-RdB7DM3vGqk/XtoIBqXYjmI/AAAAAAAACPo/jMiJmvp0byoB35em1ZmMv5_fEo822e_UgCK4BGAsYHg/s876/5.jpg,
     mapQuery: 'Naneghat Junnar',
     intensity: 'Heavy'
   },
@@ -83,7 +83,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.RELIGIOUS],
     durationHours: 1.5,
     description: 'Vighnahar Ganpati, one of the Ashtavinayaks, situated on the banks of the Kukadi River.',
-    imageUrl: getImg(105),
+    imageUrl: https://media-cdn.tripadvisor.com/media/photo-s/10/cd/85/2c/temple.jpg,
     mapQuery: 'Ozar Ganpati Temple Junnar',
     intensity: 'Moderate'
   },
@@ -94,7 +94,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.ICONIC],
     durationHours: 0.5,
     description: 'The central square of Junnar featuring a grand statue of the Maratha King.',
-    imageUrl: getImg(106),
+    imageUrl: https://media-cdn.tripadvisor.com/media/photo-s/04/35/a5/00/shivneri-fort.jpg,
     mapQuery: 'Chhatrapati Shivaji Maharaj Square Junnar',
     intensity: 'Light'
   },
@@ -105,7 +105,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.CULTURE, SpotCategory.HISTORIC],
     durationHours: 1.5,
     description: 'A cultural theme park depicting the life, administration, and forts of Shivaji Maharaj.',
-    imageUrl: getImg(107),
+    imageUrl: https://images.hindustantimes.com/img/2022/11/17/1600x900/1251bba8-66a1-11ed-ae2f-eb59304e4c50_1668712031690.jpg,
     mapQuery: 'Shiv Srushti Junnar',
     intensity: 'Moderate'
   },
@@ -116,7 +116,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.SELFIE_POINT, SpotCategory.HISTORIC],
     durationHours: 1.0,
     description: 'A designated spot offering the perfect backdrop of Shivneri Fort for photos.',
-    imageUrl: getImg(108),
+    imageUrl:https://media.istockphoto.com/id/1577663818/photo/27-july-2023-junnar-maharashtra-india-shivneri-fort-is-a-17th-century-military-fortification.jpg?s=1024x1024&w=is&k=20&c=ghCd4Zhm9hW7HLMo52bjvr70tpM2N-zpnZcXix46SIY=,
     mapQuery: 'Selfie Point Junnar Shivneri',
     intensity: 'Light'
   },
@@ -127,7 +127,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.SCENIC_POINT],
     durationHours: 1.0,
     description: 'A small hillock offering a panoramic view of Junnar city and surrounding windmills.',
-    imageUrl: getImg(109),
+    imageUrl: https://www.mypunepulse.com/wp-content/uploads/2024/04/Lok-Sabha-2024-Pune-candidates-pledge-to-preserve-Vetal-Tekdi-1024x768.jpeg,
     mapQuery: 'Harin Tekdi Junnar',
     intensity: 'Moderate'
   },
@@ -138,7 +138,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.NATURE, SpotCategory.HISTORIC],
     durationHours: 1.0,
     description: 'A lush green pass with historical significance, great for a short nature walk.',
-    imageUrl: getImg(110),
+    imageUrl: https://i.pinimg.com/originals/9b/e3/c6/9be3c61d1b77af883278e78b4e65659b.jpg,
     mapQuery: 'Ganesh Khind Junnar',
     intensity: 'Moderate'
   },
@@ -149,7 +149,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.RELIGIOUS],
     durationHours: 0.5,
     description: 'A spiritual center and beautiful Barav (stepwell) located at the chowk.',
-    imageUrl: getImg(111),
+    imageUrl: https://sl.bing.net/dsRKqOeFEfk,
     mapQuery: 'Swami Samarth Kendra Junnar',
     intensity: 'Light'
   },
@@ -160,7 +160,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.RELIGIOUS, SpotCategory.HISTORIC],
     durationHours: 0.5,
     description: 'A historic temple dedicated to Lord Shiva, known for its spiritual ambience.',
-    imageUrl: getImg(112),
+    imageUrl: https://sl.bing.net/elQLyJpFyoK,
     mapQuery: 'Pancha Linga Temple Junnar',
     intensity: 'Light'
   },
@@ -171,7 +171,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.TREK, SpotCategory.FORT],
     durationHours: 4.0,
     description: 'A rugged hill fort famously used to guard the Naneghat trade route. Ideal for trekkers.',
-    imageUrl: getImg(113),
+    imageUrl: https://sl.bing.net/ObL5KkeUJo,
     mapQuery: 'Jivdhan Fort',
     intensity: 'Heavy'
   },
@@ -182,7 +182,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.TREK, SpotCategory.FORT],
     durationHours: 2.5,
     description: 'Also known as Prasannagad, features rock-cut steps and cisterns.',
-    imageUrl: getImg(114),
+    imageUrl: https://alchetron.com/cdn/chavand-maharashtra-c028a049-25e2-454d-b01e-06509186723-resize-750.jpeg,
     mapQuery: 'Chavand Fort',
     intensity: 'Heavy'
   },
@@ -193,7 +193,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.CAVE, SpotCategory.HISTORIC],
     durationHours: 1.0,
     description: 'Lesser-known but significant Buddhist caves located near Shivneri.',
-    imageUrl: getImg(115),
+    imageUrl: https://preview.redd.it/zehewug9j8291.jpg?width=1080&format=pjpg&auto=webp&s=35e9cc7d2fd2c5bba708f950f6ca44f5ed6af6bf,
     mapQuery: 'Tulja Caves Junnar',
     intensity: 'Moderate'
   },
@@ -204,7 +204,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.CAVE, SpotCategory.HISTORIC],
     durationHours: 1.5,
     description: 'Ancient rock-cut caves on Manmodi hill, featuring distinct architectural styles.',
-    imageUrl: getImg(116),
+    imageUrl: https://sl.bing.net/PEcT4jSWt2,
     mapQuery: 'Manmodi Caves Junnar',
     intensity: 'Moderate'
   },
@@ -215,7 +215,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.HISTORIC, SpotCategory.RELIGIOUS],
     durationHours: 1.0,
     description: 'A 12th-century Hemadpanti-style Shiva temple on the river bank.',
-    imageUrl: getImg(117),
+    imageUrl:https://sl.bing.net/goCXk5EC8DQ,
     mapQuery: 'Kukdeshwar Temple Junnar',
     intensity: 'Moderate'
   },
@@ -226,7 +226,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.WILDLIFE],
     durationHours: 1.5,
     description: 'A rehabilitation center for leopards. Entry is restricted/subject to permission.',
-    imageUrl: getImg(118),
+    imageUrl: https://sl.bing.net/efRhezpfaKG,
     mapQuery: 'Manikdoh Leopard Rescue Centre',
     intensity: 'Moderate'
   },
@@ -248,7 +248,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.TREK, SpotCategory.FORT],
     durationHours: 3.5,
     description: 'Unique fort architecture with underground granaries and rock-cut structures.',
-    imageUrl: getImg(120),
+    imageUrl:https://sl.bing.net/1ok8qtLq0G,
     mapQuery: 'Hadsar Fort',
     intensity: 'Heavy'
   },
