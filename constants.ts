@@ -7,7 +7,7 @@ export const TIME_OPTIONS: TimeOption[] = [
 export const CATEGORIES = Object.values(SpotCategory);
 
 // Helper to generate consistent images
-
+//lol
 
 export const DESTINATIONS_DATA = {
   [DestinationName.JUNNAR]: {
