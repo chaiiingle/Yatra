@@ -182,7 +182,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.TREK, SpotCategory.FORT],
     durationHours: 2.5,
     description: 'Also known as Prasannagad, features rock-cut steps and cisterns.',
-    imageUrl: https://alchetron.com/cdn/chavand-maharashtra-c028a049-25e2-454d-b01e-06509186723-resize-750.jpeg,
+    imageUrl: "https://alchetron.com/cdn/chavand-maharashtra-c028a049-25e2-454d-b01e-06509186723-resize-750.jpeg",
     mapQuery: 'Chavand Fort',
     intensity: 'Heavy'
   },
@@ -193,7 +193,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.CAVE, SpotCategory.HISTORIC],
     durationHours: 1.0,
     description: 'Lesser-known but significant Buddhist caves located near Shivneri.',
-    imageUrl: https://preview.redd.it/zehewug9j8291.jpg?width=1080&format=pjpg&auto=webp&s=35e9cc7d2fd2c5bba708f950f6ca44f5ed6af6bf,
+    imageUrl: "https://preview.redd.it/zehewug9j8291.jpg?width=1080&format=pjpg&auto=webp&s=35e9cc7d2fd2c5bba708f950f6ca44f5ed6af6bf",
     mapQuery: 'Tulja Caves Junnar',
     intensity: 'Moderate'
   },
@@ -204,7 +204,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.CAVE, SpotCategory.HISTORIC],
     durationHours: 1.5,
     description: 'Ancient rock-cut caves on Manmodi hill, featuring distinct architectural styles.',
-    imageUrl: https://sl.bing.net/PEcT4jSWt2,
+    imageUrl: "https://sl.bing.net/PEcT4jSWt2",
     mapQuery: 'Manmodi Caves Junnar',
     intensity: 'Moderate'
   },
@@ -215,7 +215,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.HISTORIC, SpotCategory.RELIGIOUS],
     durationHours: 1.0,
     description: 'A 12th-century Hemadpanti-style Shiva temple on the river bank.',
-    imageUrl:https://sl.bing.net/goCXk5EC8DQ,
+    imageUrl: "https://sl.bing.net/goCXk5EC8DQ",
     mapQuery: 'Kukdeshwar Temple Junnar',
     intensity: 'Moderate'
   },
@@ -226,7 +226,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.WILDLIFE],
     durationHours: 1.5,
     description: 'A rehabilitation center for leopards. Entry is restricted/subject to permission.',
-    imageUrl: https://sl.bing.net/efRhezpfaKG,
+    imageUrl: "https://sl.bing.net/efRhezpfaKG",
     mapQuery: 'Manikdoh Leopard Rescue Centre',
     intensity: 'Moderate'
   },
@@ -237,7 +237,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.HISTORIC],
     durationHours: 0.5,
     description: 'Statue of Dr. Alexander Gibson, a pioneering botanist in British India.',
-    imageUrl: getImg(119),
+    imageUrl: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwf92FCI_tGGewwu9af3vmH7QPea7vdbxZ2g8UGmGQBNdqYYnpG1OZbi1fxOBlelD-aQE4pUjuEsfHLnVZxRnfHoKa0YEL7E7S-iAAtBYXMcwJdovH7HjfkYFST0aDzfvtQgs58baPz6i4=w426-h240-k-no",
     mapQuery: 'Dr Alexander Gibson Statue Junnar',
     intensity: 'Light'
   },
@@ -248,7 +248,7 @@ export const SPOTS_DB: TouristSpot[] = [
     categories: [SpotCategory.TREK, SpotCategory.FORT],
     durationHours: 3.5,
     description: 'Unique fort architecture with underground granaries and rock-cut structures.',
-    imageUrl:https://sl.bing.net/1ok8qtLq0G,
+    imageUrl: "https://sl.bing.net/1ok8qtLq0G",
     mapQuery: 'Hadsar Fort',
     intensity: 'Heavy'
   },
